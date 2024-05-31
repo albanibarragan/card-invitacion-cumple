@@ -5,7 +5,6 @@ body {
     rgb(214, 214, 214) 39%,
     rgb(63, 63, 63) 96%
   );
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -23,29 +22,33 @@ body {
 
 .card-title {
   color: cadetblue;
-  font-size: 48px;
-  padding-top: 25px;
+  font-size: 45px;
   font-weight: 800;
-  margin: 15px;
+  margin: 20px;
 }
 
 .card-description {
   color: chocolate;
   font-size: 24px;
   font-weight: 90;
-  margin: 0;
+  margin: 0 8px;
   letter-spacing: 2px;
 }
 
 .content {
   color: black;
-  padding: 5px 25px;
-  padding-bottom: 0;
+  padding: 5px 28px;
   font-size: 20px;
   text-align: justify;
+  margin: 10px;
 }
 
 img {
   width: 400px;
   height: 400px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 600;
 }
