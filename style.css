@@ -1,0 +1,51 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+    105deg,
+    rgb(214, 214, 214) 39%,
+    rgb(63, 63, 63) 96%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  background-color: #e7e7e7f5;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px 10px;
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  box-shadow: 2px 4px 45px #000000;
+}
+
+.card-title {
+  color: cadetblue;
+  font-size: 48px;
+  padding-top: 25px;
+  font-weight: 800;
+  margin: 15px;
+}
+
+.card-description {
+  color: chocolate;
+  font-size: 24px;
+  font-weight: 90;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.content {
+  color: black;
+  padding: 5px 25px;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: justify;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
